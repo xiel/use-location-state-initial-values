@@ -10,8 +10,8 @@ export default function App() {
     <div className="page-wrapper">
       <Router>
         <Header />
+        <Route path="/"  component={QueryReducerDemo} exact />
         <Route path="/array-demo" component={ArrayDemo} />
-        <Route path="/" component={QueryReducerDemo} />
       </Router>
     </div>
   );
